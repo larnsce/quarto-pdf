@@ -1,0 +1,20 @@
+---
+title: "Template"
+date: today
+format:
+  pdf: 
+    toc: true
+    lof: true
+    lot: true
+    template-partials:
+        - before-body.tex
+    include-in-header: 
+      text: '\pagenumbering{gobble}'
+---
+
+{{< pagebreak >}}
+
+\pagenumbering{arabic}
+
+# Introduction
+
